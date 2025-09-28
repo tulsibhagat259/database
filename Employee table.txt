@@ -1,0 +1,16 @@
+Create Table: Employee
+
+CREATE TABLE Emp (
+    emp int,
+    empname varchar(50) ,
+    Department VARCHAR(50),
+    Salary DECIMAL(10,2)
+);
+
+
+Create Table: Incentive
+CREATE TABLE incentive (
+    incentive id INT AUTO_INCREMENT PRIMARY KEY,
+    employee id INT ,                  
+    incentive amount DECIMAL(10, 2),  
+);

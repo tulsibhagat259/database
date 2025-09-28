@@ -1,0 +1,15 @@
+
+CREATE TABLE Student (
+    sid int, fname varchar(30),
+    lname varchar(30),email varchar(100),
+    mobile bigint
+);
+    
+ CREATE TABLE Exam (
+    examid int,
+    studentID INT,
+    subject varchar(50),
+    marks int check (Marks >= 0 and Marks <= 100),
+    examdata date,
+    FOREIGN KEY (StudentID) REFERENCES Student(StudentID)
+);
