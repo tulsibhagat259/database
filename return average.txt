@@ -1,0 +1,3 @@
+SELECT PRO_COM AS Company_Code, AVG(PRO_PRICE) AS Average_Price
+FROM item_mast GROUP BY PRO_COM;
+

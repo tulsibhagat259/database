@@ -1,0 +1,2 @@
+SELECT AVG(PRO_PRICE) AS avg FROM item mast WHERE PRO_COM = 16;
+

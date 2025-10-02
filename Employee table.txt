@@ -2,7 +2,7 @@ Create Table: Employee
 
 CREATE TABLE Emp (
     emp int,
-    empname varchar(50) ,
+    ename varchar(50) ,
     Department VARCHAR(50),
     Salary DECIMAL(10,2)
 );

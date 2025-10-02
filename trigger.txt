@@ -1,0 +1,15 @@
+DELIMITER //
+
+CREATE TRIGGER after emp insert
+AFTER INSERT ON Employee
+FOR EACH ROW
+BEGIN
+    INSERT INTO viewtable (Emp_ID, First_Name, Last_Name, Department, Salary)
+    VALUES (NEW.Emp_ID, NEW.First_Name, NEW.Last_Name, NEW.Department, NEW.Salary);
+
+END; //
+
+DELIMITER ;
+
+
+

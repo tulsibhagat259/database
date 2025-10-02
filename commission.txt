@@ -1,0 +1,2 @@
+SELECT * FROM Salesperson WHERE Comm > 0.10 AND Comm < 0.12;
+

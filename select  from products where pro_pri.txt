@@ -1,0 +1,1 @@
+select * from products where pro_price between 200 and 600;

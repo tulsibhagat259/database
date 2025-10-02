@@ -1,0 +1,1 @@
+select sum sal ,deptno ,min or max from emp GROP by deptno;

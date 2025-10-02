@@ -1,0 +1,41 @@
+
+salseperson
+
+CREATE TABLE Salesperson (sno int,sname varchar(50),city varchar(50),comm varchar(50);
+
+
+insert into salesperson valure (1001,"peel","london",.12);
+insert into salesperson valure (1002,"peel","san jose",.13);
+insert into salesperson valure (1004,"peel","london",.11);
+insert into salesperson valure (1007,"peel","barcelona",.15);
+insert into salesperson valure (1003,"peel","new york",.1);
+
+
+
+
+
+
+
+customer
+
+CREATE TABLE Customer (CNM int,cname varchar(50),city varchar(50),RATING(500),sno varchar(2000);
+
+insert into customer valure (201,"hoffman","london",100,1001);
+insert into customer valure (202,"Giovanne","rose",200,1003);
+insert into customer valure (203,"Liu","sun jose",300,1002);
+insert into customer valure (204,"Grass","Barcelona",100,1002);
+insert into customer valure (205,"clemens","london",300,1007);
+insert into customer valure (206,"pereira","rose",100,1004);
+
+
+
+
+
+
+
+
+
+
+
+
+

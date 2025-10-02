@@ -1,0 +1,2 @@
+SELECT * FROM Customer WHERE rating > 100 OR city = 'Rome';
+

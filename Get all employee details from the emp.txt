@@ -1,0 +1,4 @@
+Get all employee details from the employee table order by First_Name ascending and Salary descending? 
+
+
+     SELECT * FROM emp ORDER BY ename ASC, Salary DESC;    
